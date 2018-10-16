@@ -1,0 +1,1 @@
+include ':app', ':tools', ':teacherclient', ':studentclient', ':analysis', ':resource_library'
