@@ -1,4 +1,4 @@
-package com.nerolink.tools
+package com.nerolink.studentclient
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
