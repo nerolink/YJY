@@ -36,7 +36,7 @@
                 android:id="@+id/logo"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@={login_model.logo}"
+                android:src="@drawable/logo_teacher"
                 android:layout_centerHorizontal="true" />
 
             <EditText
@@ -73,7 +73,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:background="@drawable/greenroundcornerbtn"
-                android:onClickListener="@={login_model.clickListener}"
+                android:onClick="@{()->login_model.click()}"
                 android:layout_below="@+id/passwordet" />
         </RelativeLayout>
 

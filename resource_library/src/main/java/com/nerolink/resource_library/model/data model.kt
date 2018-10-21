@@ -4,8 +4,12 @@ import android.databinding.Bindable
 import android.databinding.Observable
 import android.view.View
 
-data class LoginModel( var logo: Int, var account: String,
-                       var password: String,var clickListener: View.OnClickListener)
+ class LoginModel( var logo: String, var account: String,
+                       var password: String,var clickListener: View.OnClickListener){
+     public fun click() {
+         clickListener.onClick(null)
+     }
+ }
 
 data class ResultLogin( var result: Boolean,  var info: String)
 

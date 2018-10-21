@@ -32,7 +32,7 @@ class LoginActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
         val info = packageManager.getActivityInfo(componentName, PackageManager.GET_META_DATA)
         val loginModel = LoginModel(
-                logo = info.metaData.getInt("Logo"),
+                logo = info.metaData.getString("Logo"),
                 account = info.metaData.getString("account"),
                 password = info.metaData.getString("password"),
                 clickListener = View.OnClickListener { v ->
@@ -40,6 +40,7 @@ class LoginActivity : AppCompatActivity() {
                 }
         )
         binding?.loginModel = loginModel
+
     }
 
     private fun login(id: String, password: String) {

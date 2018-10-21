@@ -25,7 +25,7 @@
         <activity android:name="com.nerolink.resource_library.activity.LoginActivity">
             <meta-data
                 android:name="Logo"
-                android:resource="@drawable/logo_teacher" />
+                android:value="@drawable/logo_teacher" />
             <meta-data
                 android:name="account"
                 android:value="t12345" />
