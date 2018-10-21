@@ -1,8 +1,7 @@
-package com.nerolink.tools.dao_util
+package com.nerolink.tools.dao
 
 import android.app.Activity
 import android.content.Context
-import android.content.SharedPreferences
 
 class SharedPreferencesUtil private constructor() {
 

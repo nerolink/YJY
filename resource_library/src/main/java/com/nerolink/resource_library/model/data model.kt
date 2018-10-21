@@ -1,3 +1,12 @@
 package com.nerolink.resource_library.model
 
-data class LoginModel(val logo: Int, val account: String, val password: String)
+import android.databinding.Bindable
+import android.databinding.Observable
+import android.view.View
+
+data class LoginModel( var logo: Int, var account: String,
+                       var password: String,var clickListener: View.OnClickListener)
+
+data class ResultLogin( var result: Boolean,  var info: String)
+
+

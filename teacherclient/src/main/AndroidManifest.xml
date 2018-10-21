@@ -8,20 +8,33 @@
         android:label="@string/teacher_client_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
+        android:theme="@style/AppTheme">
         <activity android:name="com.nerolink.resource_library.activity.WelcomeActivity">
-            <meta-data android:name="AppName" android:value="@string/teacher_client_name" />
-            <meta-data android:name="Logo" android:resource="@drawable/logo_teacher"/>
+            <meta-data
+                android:name="AppName"
+                android:value="@string/teacher_client_name" />
+            <meta-data
+                android:name="Logo"
+                android:resource="@drawable/logo_teacher" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name="com.nerolink.resource_library.activity.LoginActivity">
-            <meta-data android:name="Logo" android:resource="@drawable/logo_teacher"/>
-            <meta-data android:name="account" android:value="t12345"/>
-            <meta-data android:name="password" android:value="123456"/>
+            <meta-data
+                android:name="Logo"
+                android:resource="@drawable/logo_teacher" />
+            <meta-data
+                android:name="account"
+                android:value="t12345" />
+            <meta-data
+                android:name="password"
+                android:value="123456" />
+            <meta-data
+                android:name="type"
+                android:value="teacher" />
         </activity>
     </application>
 

@@ -8,7 +8,7 @@ import android.view.LayoutInflater
 import android.widget.ImageView
 import com.nerolink.resource_library.R
 import com.nerolink.resource_library.constant.APPConstant
-import com.nerolink.tools.dao_util.SharedPreferencesUtil
+import com.nerolink.tools.dao.SharedPreferencesUtil
 import java.util.*
 import kotlin.concurrent.timerTask
 
