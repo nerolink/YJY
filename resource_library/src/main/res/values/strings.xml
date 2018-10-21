@@ -4,4 +4,5 @@
     <string name="student_client_name">学生端</string>
     <string name="analysis_client_name">分析端</string>
     <string name="developer">nerolink</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
