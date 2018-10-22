@@ -1,7 +1,6 @@
 package com.nerolink.resource_library.constant
 
-class APPConstant {
-    companion object {
+object APPConstant {
         var MQTTHOST = "tcp://121.199.23.184:61613"
         val local = "http://125.216.242.241:8080/yjyProject/"
         var MQTTUSERNAME = "admin"
@@ -17,5 +16,4 @@ class APPConstant {
         var LESSONID = ""
         var SCRRENWIDTH: Int = 0
         var SCREENHEIGHT: Int = 0
-    }
 }

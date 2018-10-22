@@ -31,7 +31,7 @@
                 android:value="t12345" />
             <meta-data
                 android:name="password"
-                android:value="123456" />
+                android:value="123456 " />
             <meta-data
                 android:name="type"
                 android:value="teacher" />

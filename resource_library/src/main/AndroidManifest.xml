@@ -3,7 +3,13 @@
     package="com.nerolink.resource_library">
 
     <application>
-        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".activity.WelcomeActivity" />
+        <activity android:name=".activity.LoginActivity" />
+
+        <service
+            android:name=".service.MQTTService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>

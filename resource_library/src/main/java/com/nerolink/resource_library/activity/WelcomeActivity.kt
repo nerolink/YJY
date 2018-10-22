@@ -22,6 +22,7 @@ class WelcomeActivity : Activity() {
         ivLogo.setImageResource(info.metaData.getInt("Logo"))
         setContentView(view)
 
+
         val status = SharedPreferencesUtil.getString(context = applicationContext, key = "STATUS")
         val userId = SharedPreferencesUtil.getString(applicationContext, "USER_ID")
 

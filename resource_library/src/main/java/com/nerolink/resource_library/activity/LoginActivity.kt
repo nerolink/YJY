@@ -34,9 +34,9 @@ class LoginActivity : AppCompatActivity() {
         val loginModel = LoginModel(
                 logo = info.metaData.getString("Logo"),
                 account = info.metaData.getString("account"),
-                password = info.metaData.getString("password"),
+                password = "${info.metaData.getInt("password")}",
                 clickListener = View.OnClickListener { v ->
-                    login(info.metaData.getString("account"), info.metaData.getString("password"))
+                    login(info.metaData.getString("account"), info.metaData.getString("password").trim())
                 }
         )
         binding?.loginModel = loginModel
