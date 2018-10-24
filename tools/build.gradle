@@ -51,6 +51,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.eclipse.paho/mqtt-client
     implementation group: 'org.eclipse.paho', name: 'mqtt-client', version: '0.4.0'
 
+    // https://mvnrepository.com/artifact/org.greenrobot/eventbus
+    implementation group: 'org.greenrobot', name: 'eventbus', version: '3.0.0'
+
 
 }
 repositories {

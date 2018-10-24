@@ -46,5 +46,8 @@ object MQTTClientInstance {
         topics.forEach { t -> sendMessage(content, t) }
     }
 
-    fun connect
+    fun connect() {
+        instance.connect(option)
+    }
+
 }

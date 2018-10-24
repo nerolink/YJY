@@ -1,6 +1,7 @@
 package com.nerolink.resource_library.constant
 
 object WEBConstant {
-        var HOST = "http://121.199.23.184/yjyProject/"
-        var LOGIN = "login/teacher"
+    var HOST = "http://i-test.com.cn/yjyProject/"
+    var LOGIN_FOR_TEACHER = "login/teacher"
+    var LOGIN_FOR_STUDENT = "login/student"
 }

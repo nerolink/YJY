@@ -28,13 +28,14 @@
                 android:value="@drawable/logo_teacher" />
             <meta-data
                 android:name="account"
-                android:value="t12345" />
+                android:value="t123456" />
             <meta-data
                 android:name="password"
                 android:value="123456 " />
             <meta-data
                 android:name="type"
                 android:value="teacher" />
+
         </activity>
     </application>
 
